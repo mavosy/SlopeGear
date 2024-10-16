@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlopeGear.Api", "SlopeGear.Api\SlopeGear.Api.csproj", "{61E8FC08-DDE3-4B9A-874F-6402B845EAB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlopeGear.Domain", "SlopeGear.Core\SlopeGear.Domain.csproj", "{E1409D44-4307-478E-AC5E-056D03185023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlopeGear.Application", "SlopeGear.Application\SlopeGear.Application.csproj", "{85280903-FE42-4ACC-8FCF-BC9760AA38E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlopeGear.Infrastructure", "SlopeGear.Infrastructure\SlopeGear.Infrastructure.csproj", "{6C37A907-5F84-4195-A3D5-CC2CF9C47BFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlopeGear.Tests", "SlopeGear.Tests\SlopeGear.Tests.csproj", "{49614546-685B-4438-9ACA-069EE952867A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlopeGear.Contracts", "SlopeGear.Contracts\SlopeGear.Contracts.csproj", "{576FE9EA-FD0C-4CD2-984A-EA5AEBC98BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61E8FC08-DDE3-4B9A-874F-6402B845EAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E8FC08-DDE3-4B9A-874F-6402B845EAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E8FC08-DDE3-4B9A-874F-6402B845EAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E8FC08-DDE3-4B9A-874F-6402B845EAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1409D44-4307-478E-AC5E-056D03185023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1409D44-4307-478E-AC5E-056D03185023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1409D44-4307-478E-AC5E-056D03185023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1409D44-4307-478E-AC5E-056D03185023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85280903-FE42-4ACC-8FCF-BC9760AA38E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85280903-FE42-4ACC-8FCF-BC9760AA38E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85280903-FE42-4ACC-8FCF-BC9760AA38E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85280903-FE42-4ACC-8FCF-BC9760AA38E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C37A907-5F84-4195-A3D5-CC2CF9C47BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C37A907-5F84-4195-A3D5-CC2CF9C47BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C37A907-5F84-4195-A3D5-CC2CF9C47BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C37A907-5F84-4195-A3D5-CC2CF9C47BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49614546-685B-4438-9ACA-069EE952867A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49614546-685B-4438-9ACA-069EE952867A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49614546-685B-4438-9ACA-069EE952867A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49614546-685B-4438-9ACA-069EE952867A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{576FE9EA-FD0C-4CD2-984A-EA5AEBC98BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{576FE9EA-FD0C-4CD2-984A-EA5AEBC98BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{576FE9EA-FD0C-4CD2-984A-EA5AEBC98BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{576FE9EA-FD0C-4CD2-984A-EA5AEBC98BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9BB4E06-C0C3-40FE-9B42-54E1E374F9BD}
+	EndGlobalSection
+EndGlobal
