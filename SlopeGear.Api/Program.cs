@@ -1,16 +1,13 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using SlopeGear.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-using System.Text;
-using SlopeGear.Domain.Interfaces;
-using SlopeGear.Infrastructure.Repositories;
+using Microsoft.OpenApi.Models;
 using Serilog;
 using SlopeGear.Api.ErrorHandling;
-using System.Reflection;
-using Microsoft.OpenApi.Models;
 using SlopeGear.Application.Interfaces;
 using SlopeGear.Application.Services;
+using SlopeGear.Domain.Interfaces;
+using SlopeGear.Infrastructure.Data;
+using SlopeGear.Infrastructure.Repositories;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,10 +36,13 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IResellerRepository, ResellerRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 
+builder.Services.AddScoped<IExcelDataReader, ExcelDataReader>();
+
 // Services
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IResellerService, ResellerService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductImportService, ProductImportService>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
